@@ -15,7 +15,7 @@
 
 1. The uploaded `agentcore.json` represents the validated CodeZip layout, so `app/layeredobsagent/` remains the deployment code location.
 2. `main.py` is useful as an unchanged pre-federation baseline and is therefore included, but it is not the configured entry point.
-3. No open-source license was selected; `LICENSE-NEEDS-SELECTION.txt` is included instead of inventing a license grant.
+3. No open-source license has been selected. The repository currently remains unlicensed.
 4. Python's standard `unittest` and mocking facilities are sufficient, so no test dependency was added to `pyproject.toml`.
 5. `AWS_REGION=us-east-1` is documented and included in templates because the validated token provider uses it as the default.
 
@@ -24,7 +24,6 @@
 - The uploaded active `agentcore.json` and its private tenant/application/object identifiers
 - AWS account IDs, Runtime or role ARNs, federation issuer URLs, credentials, assertions, tokens, authorization values, and raw logs
 - Customer, client, corporate tenant, local username, and absolute laptop-path information
-- Empty decorative image directories
 - Live federation tests requiring AWS credentials, a tenant, a deployed Runtime, or real Agent Identity objects
 - Agent 365 registration, synchronization, observability, Purview, Conditional Access, Defender, governance, production-readiness, and official-reference-architecture claims
 - Destructive cleanup commands
