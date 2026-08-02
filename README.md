@@ -181,7 +181,11 @@ See [Claims Boundary](docs/claims-boundary.md) for the exact scope of validation
 
 ## Disclaimer
 
-This proof of concept was developed and validated in a controlled lab environment. It is not an official Microsoft or AWS reference architecture, product commitment, or production deployment guide. Review and test all code in a non-production environment before use.
+This proof of concept was developed and validated in a controlled lab environment. It is not an official Microsoft or AWS reference architecture, product commitment, or production deployment guide.
+
+Users are responsible for evaluating and implementing all security controls, permissions, network restrictions, monitoring, logging, key management, data protection, compliance requirements, and operational safeguards appropriate to their environment.
+
+Review and test all code in a non-production environment before use.
 
 ## References
 
