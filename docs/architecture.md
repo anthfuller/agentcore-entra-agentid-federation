@@ -1,4 +1,6 @@
-# Validated Architecture
+# Architecture
+
+![Federation flow](../images/federation-flow.png)
 
 ## Flow
 
