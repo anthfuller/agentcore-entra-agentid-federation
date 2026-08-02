@@ -11,3 +11,5 @@ Use placeholders and sanitized reproductions. Revoke or rotate any sensitive val
 ## Scope
 
 This repository is a controlled-lab proof of concept. It is not a production security assessment, support channel, or official Microsoft or AWS reference implementation.
+
+Use of this repository does not transfer responsibility for securely configuring AWS, Microsoft Entra, Microsoft Graph, AgentCore Runtime, networking, permissions, telemetry, or downstream services. Users remain responsible for threat modeling, security review, compliance validation, and production hardening.
