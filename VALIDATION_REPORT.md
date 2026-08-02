@@ -15,7 +15,7 @@
 
 1. The uploaded `agentcore.json` represents the validated CodeZip layout, so `app/layeredobsagent/` remains the deployment code location.
 2. `main.py` is useful as an unchanged pre-federation baseline and is therefore included, but it is not the configured entry point.
-3. No open-source license has been selected. The repository currently remains unlicensed.
+3. The repository is licensed under the MIT License.
 4. Python's standard `unittest` and mocking facilities are sufficient, so no test dependency was added to `pyproject.toml`.
 5. `AWS_REGION=us-east-1` is documented and included in templates because the validated token provider uses it as the default.
 
