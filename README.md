@@ -50,6 +50,7 @@ app/layeredobsagent/          Validated CodeZip application directory
   mcp_client/client.py        Streamable HTTP MCP client
 config/agentcore.template.json Sanitized AgentCore configuration template
 docs/                         Architecture, deployment, validation, and boundaries
+images/                       Architecture diagram
 tests/                        Offline tests; no live AWS or Microsoft calls
 ```
 
