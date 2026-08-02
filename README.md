@@ -21,6 +21,9 @@ AgentCore Runtime execution role
   -> Microsoft Graph service-principal GET
   -> sanitized HTTP 200 validation response
 ```
+## Validated architecture
+
+![Federation flow](images/federation-flow.png)
 
 See [Architecture](docs/architecture.md).
 
