@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.agentcore.aws.dev/v1/agentcore.json",
+  "name": "<AGENTCORE_PROJECT_NAME>",
+  "version": 1,
+  "managedBy": "CDK",
+  "tags": {
+    "agentcore:created-by": "agentcore-cli",
+    "agentcore:project-name": "<AGENTCORE_PROJECT_NAME>"
+  },
+  "runtimes": [
+    {
+      "name": "<AGENTCORE_RUNTIME_NAME>",
+      "build": "CodeZip",
+      "entrypoint": "main_federated.py",
+      "codeLocation": "app/layeredobsagent/",
+      "runtimeVersion": "PYTHON_3_14",
+      "envVars": [
+        {"name": "ENTRA_TENANT_ID", "value": "<ENTRA_TENANT_ID>"},
+        {"name": "ENTRA_BLUEPRINT_CLIENT_ID", "value": "<ENTRA_BLUEPRINT_CLIENT_ID>"},
+        {"name": "ENTRA_CHILD_AGENT_ID", "value": "<ENTRA_CHILD_AGENT_ID>"},
+        {"name": "AWS_REGION", "value": "us-east-1"}
+      ],
+      "networkMode": "PUBLIC",
+      "protocol": "HTTP"
+    }
+  ],
+  "memories": [],
+  "knowledgeBases": [],
+  "credentials": [],
+  "evaluators": [],
+  "onlineEvalConfigs": [],
+  "agentCoreGateways": [],
+  "policyEngines": [],
+  "configBundles": [],
+  "abTests": [],
+  "harnesses": [],
+  "datasets": [],
+  "payments": []
+}
