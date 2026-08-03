@@ -1,8 +1,10 @@
 # Amazon Bedrock AgentCore to Microsoft Entra Agent ID Federation
 
-## Status
+**Developed and validated by Anthony Fuller, Cloud & AI Security Architect**  
+*Controlled lab environment*
 
-Validated proof of concept from a controlled lab environment. The active AgentCore entry point is `app/layeredobsagent/main_federated.py`. The unchanged `main.py` file is retained only as the pre-federation application baseline and is not configured for deployment.
+## Status
+Validated proof of concept...
 
 ## What this sample demonstrates
 
