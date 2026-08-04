@@ -56,6 +56,22 @@ images/                       Architecture diagram
 tests/                        Offline tests; no live AWS or Microsoft calls
 ```
 
+### AgentCore CLI Installation
+
+Before performing any deployment or runtime validation steps, install the Amazon Bedrock AgentCore CLI and ensure it is available from your command shell.
+
+Verify Python:
+
+py -3.11 --version
+
+Verify AgentCore CLI:
+
+agentcore --help
+
+If the agentcore command is not recognized, install the required AgentCore CLI components according to the current Amazon Bedrock AgentCore documentation and restart your terminal session before continuing.
+
+All deployment, status, and invocation examples in this repository assume that the AgentCore CLI is already installed and authenticated.
+
 ## Prerequisites
 
 - Python compatible with the project metadata and the configured AgentCore runtime
