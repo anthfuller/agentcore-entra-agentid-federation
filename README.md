@@ -50,6 +50,7 @@ app/layeredobsagent/          Validated CodeZip application directory
   main.py                     Unchanged pre-federation baseline
   model/load.py               Bedrock model loader
   mcp_client/client.py        Streamable HTTP MCP client
+  pyproject.toml              Python project metadata and runtime dependencies
 config/agentcore.template.json Sanitized AgentCore configuration template
 docs/                         Architecture, deployment, validation, and boundaries
 images/                       Architecture diagram
