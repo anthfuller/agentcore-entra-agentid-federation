@@ -26,6 +26,13 @@ agentcore/.cli/
 **/.cli/logs/
 cdk.out/
 
+# Agent 365 generated configuration and local telemetry
+a365.generated.config.json
+*a365*.config.json
+otel-data/
+telemetry/
+otlp/
+
 # Logs and local artifacts
 *.log
 logs/
