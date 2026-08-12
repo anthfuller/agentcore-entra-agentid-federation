@@ -44,17 +44,22 @@ See [Architecture](docs/architecture.md).
 ## Repository layout
 
 ```text
-app/layeredobsagent/          Validated CodeZip application directory
-  main_federated.py           Active AgentCore entry point
-  entra_token_provider.py     Passwordless two-stage token provider
-  main.py                     Unchanged pre-federation baseline
-  model/load.py               Bedrock model loader
-  mcp_client/client.py        Streamable HTTP MCP client
-  pyproject.toml              Python project metadata and runtime dependencies
-config/agentcore.template.json Sanitized AgentCore configuration template
-docs/                         Architecture, deployment, validation, and boundaries
-images/                       Architecture diagram
-tests/                        Offline tests; no live AWS or Microsoft calls
+app/layeredobsagent/                  Validated CodeZip application directory
+├── main_federated.py                 Active AgentCore entry point
+├── entra_token_provider.py           Passwordless two-stage token provider
+├── main.py                           Unchanged pre-federation baseline
+├── model/
+│   └── load.py                       Bedrock model loader
+├── mcp_client/
+│   └── client.py                     Streamable HTTP MCP client
+└── pyproject.toml                    Python project metadata and runtime dependencies
+
+config/
+└── agentcore.template.json           Sanitized AgentCore configuration template
+
+docs/                                 Architecture, deployment, validation, and boundaries
+images/                               Architecture diagram
+tests/                                Offline tests; no live AWS or Microsoft calls
 ```
 
 ### AgentCore CLI Installation
